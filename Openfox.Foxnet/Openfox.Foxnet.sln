@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openfox.Foxnet.Web", "Openfox.Foxnet.Web.csproj", "{5D874996-313E-4FE4-A822-1D6052A803F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openfox.Foxnet.Server", "..\Openfox.Foxnet.Server\Openfox.Foxnet.Server.csproj", "{14A4385E-749B-4795-B083-E1E4287D8357}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openfox.Foxnet.ConsoleHost", "..\Openfox.Foxnet.ConsoleHost\Openfox.Foxnet.ConsoleHost.csproj", "{6AE44671-38E9-4607-BABF-236F51092093}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openfox.Foxnet.Client", "..\Openfox.Foxnet.Client\Openfox.Foxnet.Client.csproj", "{11BC78D7-DB34-4070-87B5-E7FC0B62B9BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openfox.Foxnet.Common", "..\Openfox.Foxnet.Common\Openfox.Foxnet.Common.csproj", "{97FEC113-AACA-4CE5-918C-0E33EB3B4F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openfox.Foxnet.ConsoleClient", "..\Openfox.Foxnet.ConsoleClient\Openfox.Foxnet.ConsoleClient.csproj", "{A7A85AD9-05C8-4F38-90EB-9652033D58CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D874996-313E-4FE4-A822-1D6052A803F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D874996-313E-4FE4-A822-1D6052A803F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D874996-313E-4FE4-A822-1D6052A803F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D874996-313E-4FE4-A822-1D6052A803F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14A4385E-749B-4795-B083-E1E4287D8357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14A4385E-749B-4795-B083-E1E4287D8357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14A4385E-749B-4795-B083-E1E4287D8357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14A4385E-749B-4795-B083-E1E4287D8357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE44671-38E9-4607-BABF-236F51092093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE44671-38E9-4607-BABF-236F51092093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE44671-38E9-4607-BABF-236F51092093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE44671-38E9-4607-BABF-236F51092093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BC78D7-DB34-4070-87B5-E7FC0B62B9BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BC78D7-DB34-4070-87B5-E7FC0B62B9BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BC78D7-DB34-4070-87B5-E7FC0B62B9BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BC78D7-DB34-4070-87B5-E7FC0B62B9BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97FEC113-AACA-4CE5-918C-0E33EB3B4F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FEC113-AACA-4CE5-918C-0E33EB3B4F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FEC113-AACA-4CE5-918C-0E33EB3B4F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FEC113-AACA-4CE5-918C-0E33EB3B4F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A85AD9-05C8-4F38-90EB-9652033D58CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A85AD9-05C8-4F38-90EB-9652033D58CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A85AD9-05C8-4F38-90EB-9652033D58CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A85AD9-05C8-4F38-90EB-9652033D58CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A7E9F3D-57ED-4D4B-84CC-EF4E7300DFE8}
+	EndGlobalSection
+EndGlobal

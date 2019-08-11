@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Configurations>Debug;Release;Web+ConsoleClient</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="NLog" Version="4.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\Authentication\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Openfox.Foxnet.Common\Openfox.Foxnet.Common.csproj" />
+  </ItemGroup>
+
+</Project>

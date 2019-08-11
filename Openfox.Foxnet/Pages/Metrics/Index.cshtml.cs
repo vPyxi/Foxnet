@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Openfox.Foxnet.Pages
+namespace Openfox.Foxnet.Pages.Metrics
 {
-    public class PrivacyModel : PageModel
+    public class IndexModel : PageModel
     {
         public void OnGet()
         {
+
         }
     }
 }

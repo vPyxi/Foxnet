@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Configurations>Debug;Release;Web+ConsoleClient</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Openfox.Foxnet.Common\Openfox.Foxnet.Common.csproj" />
+    <ProjectReference Include="..\Openfox.Foxnet.Server\Openfox.Foxnet.Server.csproj" />
+  </ItemGroup>
+
+</Project>

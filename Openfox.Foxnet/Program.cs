@@ -7,13 +7,15 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Openfox.Foxnet.Web.Services;
 
-namespace Openfox.Foxnet
+namespace Openfox.Foxnet.Web
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            ServiceManager.Listen(7800);
             CreateWebHostBuilder(args).Build().Run();
         }
 

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Configurations>Debug;Release;Web+ConsoleClient</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\openfox\repos\FoxnetClientExample\FoxnetClientExample\Assets\Managed\Openfox.Foxnet.Client</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Web+ConsoleClient|AnyCPU'">
+    <OutputPath>D:\openfox\repos\FoxnetClientExample\FoxnetClientExample\Assets\Managed\Openfox.Foxnet.Client</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.6.6" />
+    <PackageReference Include="NLog.Config" Version="4.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Openfox.Foxnet.Common\Openfox.Foxnet.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\dev\.nuget\packages\nlog.config\4.6.6\contentFiles\any\any\NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
